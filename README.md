@@ -1,75 +1,63 @@
 # Light Runner
 
-Fast-paced third-person platformer built in Unreal Engine 5, focused on grappling, movement mastery, and dynamic light-based traversal.
+A third-person platformer developed in **Unreal Engine 5 using C++ and Blueprints**, with a focus on gameplay programming, custom movement systems, level design, and responsive player mechanics.
 
 ---
 
-## Project Overview
+## My Work
 
-**Light Runner** is a third-person platforming game built in Unreal Engine 5. The game combines fast, fluid movement with challenging traversal through dark, atmospheric environments.
+I developed and integrated the game's core gameplay systems, combining **C++ and Unreal Engine Blueprints** to expand basic third-person movement into a complete fast-paced platforming system.
 
-Players use jumping, dashing, and grappling to navigate platforming levels as quickly as possible. Levels follow a clear overall path while providing multiple ways to traverse obstacles, rewarding movement mastery and faster routes.
+### Custom Grappling System
+- Developed a custom grappling mechanic for fast traversal
+- Implemented grapple target detection and player movement toward valid targets
+- Iteratively tuned movement forces and behavior for responsive traversal
+- Integrated grappling directly into platform and level design
 
-A central mechanic connects traversal directly to the environment: **grapple points are only accessible while illuminated**. Lights dynamically turn on and off, forcing the player to time grapples and adapt as traversal routes become available or inaccessible.
+### Light-Based Gameplay System
+- Designed a system connecting dynamic lighting directly to player movement
+- Created grapple targets that dynamically switch between accessible and inaccessible states
+- Synchronized grapple availability with changing light states
+- Built timing-based platforming sequences around dynamically changing traversal routes
 
----
+### Player Movement
+- Implemented a dash ability with cooldown logic
+- Tuned movement for fast, momentum-focused platforming
+- Combined jumping, dashing, and grappling into a cohesive traversal system
+- Designed movement to be accessible initially while rewarding mechanical mastery
 
-## Gameplay Systems
+### Level & Gameplay Systems
+- Designed platforming environments around custom movement mechanics
+- Created multiple traversal options within primarily linear levels
+- Implemented checkpoints and rapid respawning
+- Added timed runs to encourage route optimization and movement mastery
 
-### Grappling
-- Custom grappling system for rapid traversal
-- Pulls the player toward valid grapple targets
-- Preserves fast, momentum-focused movement
-- Integrates with vertical platforming and level geometry
-
-### Dynamic Light-Based Traversal
-- Grapple targets alternate between illuminated and dark states
-- Illuminated targets can be grappled
-- Dark targets become inaccessible
-- Creates timing-based traversal challenges and changing routes
-
-### Movement
-- Fast third-person platforming
-- Dash ability with cooldown
-- Grappling and momentum-based traversal
-- Movement designed to be accessible but difficult to master
-
-### Levels & Progression
-- Multiple platforming levels and traversal challenges
-- Checkpoint-based respawning for quick retries
-- Multiple possible routes through primarily linear environments
-- Timer encourages faster and more efficient runs
-
-### UI & Feedback
-- Grapple and dash indicators
-- Level timer
-- Movement and environmental audio feedback
-- Lighting used for both atmosphere and gameplay communication
+### UI & Game Feedback
+- Developed HUD elements for movement abilities and cooldown states
+- Implemented a level timer
+- Integrated animation, audio, and environmental feedback
+- Used lighting as both visual guidance and an active gameplay mechanic
 
 ---
 
-## Visual Design
-
-Light Runner uses a **dark, ornate, old-world aesthetic** built around dramatic lighting. Candles and lamps illuminate important areas of otherwise dark environments, serving as both visual guidance and functional parts of the movement system.
-
----
-
-## Design Goals
-
-- Create fast, responsive movement that rewards mastery
-- Integrate lighting directly into gameplay
-- Encourage players to optimize traversal routes
-- Keep retries fast through checkpoint-based respawning
-- Combine an old-world atmosphere with high-speed platforming
-
----
-
-## Tools & Technologies
+## Technical Highlights
 
 - **Unreal Engine 5**
-- **Blueprints**
-- Character movement and physics systems
-- Dynamic lighting
-- UI / HUD systems
+- **C++**
+- **Blueprint Visual Scripting**
+- Gameplay programming
+- Character movement and physics
+- Gameplay state logic
+- Dynamic lighting systems
+- UI / HUD development
+- Checkpoint and respawn systems
 - Level design
 - Animation and audio integration
+
+---
+
+## Development
+
+Light Runner began as a movement-focused Unreal Engine project and evolved into a complete platforming game through iterative development.
+
+I independently researched and implemented systems beyond the initial course material, including the custom grappling mechanic and light-dependent traversal system. The project gave me hands-on experience working across **C++ and Blueprints**, debugging interconnected gameplay systems, tuning movement through repeated playtesting, and taking gameplay features from initial concept through working implementation.
